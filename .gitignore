@@ -1,0 +1,15 @@
+# compiled binary (rebuild with `make`)
+trade
+
+# local order database (build artifact / personal history)
+trading.db
+
+# kill-switch sentinel
+KILL
+
+# secrets — never commit these
+.env
+*.key
+
+# macOS
+.DS_Store
