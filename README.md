@@ -1,4 +1,4 @@
-# trade — a safe, durable order-execution engine in C
+# trade-engine — a Binance trading bot built around a safe, durable execution engine (C)
 
 An autonomous trading bot for the **Binance testnet**, written in C. It watches the BTCUSDT
 price, runs a moving-average crossover strategy, and routes every order through a single
