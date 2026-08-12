@@ -160,3 +160,7 @@ time & id helpers · safety gates · execution engine · strategy · main.
 - **WebSocket price feed** to replace REST polling — lower latency, real streaming market data.
 - **Reconciliation on startup** — query the exchange for any `PENDING` rows left by a crash and
   resolve them, closing the persist-before-send loop.
+
+## On AI assistance
+
+I used Claude Code to set up the project skeleton and review my code, but the core logic is my own. What mattered to me was not whether I used the tool, but whether I could use it to actually understand this area — and explain my own code in the end.
