@@ -13,3 +13,18 @@ KILL
 
 # macOS
 .DS_Store
+
+# benchmark scratch database (created and removed by --bench)
+trade_bench_*.db
+
+# SQLite WAL sidecar files
+trading.db-wal
+trading.db-shm
+trade_bench_*.db-wal
+trade_bench_*.db-shm
+
+# editor settings
+.vscode/
+
+# database backups (they contain order history)
+*.bak
